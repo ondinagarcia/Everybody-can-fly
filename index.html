@@ -9,153 +9,127 @@
 </head>
 <body>
 
-<!--bloque contenedor header-->
-<header class="header">
-    <!--bloue de barra de navegacion-->
-    <nav class="navigation">
-        <h1>Everybody Can Fly</h1>
-        <!--elementos class=¨navigation__item¨-->
+    <header class="header"> 
+        <h1>EVERYBODY CAN FLY</h1>
+        <nav class="header__section">
+            <ul class="header__section__item"> 
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Vuelos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h3>Destinos mas Buscados</h3>
+        <section class="destinos">
+            <div class="destinos__div">
+                <img src="./Assets/img/Copan4.jpg">
+                <h4> Comprar </h4>
+            </div>
+            <div class="destinos__div">
+                <img src="./Assets/img/Copan4.jpg">
+                <h4> Comprar </h4>
+            </div>    
             
-                <a href="descripcion" class="navigation__item navigation__item--cursive">Inicio</a>
-                <a href="we" class="navigation__item">Nosotros</a>
-                <a href="travel" class="navigation__item">Vuelos</a>
-                <a href="crucero" class="navigation__item">crucero</a>
-    </nav>
-</header>
-
-<!--bloques, elementos,-->
-<h2>Destinos mas destacados</h2>
-<hr>
-
-<div id="contenedor1">
-    <div class="caja"><!--bloque-->
-        <a href="viaje" class="Turistico"><img src="./assets/img/turistico.jpg" class="img1"><button class="boton">Ver</button></a>
-        <a href="viaje" class="Turistico"><img src="./assets/img/turistico.jpg" class="img1"><button class="boton">Ver</button></a>
-        <a href="viaje" class="Turistico"><img src="./assets/img/turistico.jpg" class="img1button class="boton">Ver</button></a>
-        <a href="viaje" class="Turistico"><img src="./assets/img/turistico.jpg" class="i"><button class="boton">Ver</button></a>
-    </div>
-</div>
-
-<!-- paquetes de la pagina-->
-<h2>Paquetes</h2>
-<hr>
-
-<div id="contenedor2">
-    <div class="caja2"><!--bloque2-->
-        <details>
-            <summary>
-                <a href="viaje" class="Copan4"><img src="./assets/img/Copan4.jpg" class="img"><button>Comprar</button></a>    
-            </summary>
-            <p>Autobus,Carro privado</p>
-            <p> Hospedaje, encuentra el mejor alojamiento. Hoteles, Apartamentos, Villas y más  </p>
-            <p>Transporte (tour por la ciudad)</p>
-            <p>Alimentacion comida buffet (incluye comidas tipicas del lugar)</p>
-            <p>Bebidas (Ilimitadas)</p>
-            <p>piscina</p>
-            <h3>$900</h3>
-            <p>Duracion de 3 dias Hotel Marina Copan tu mejor opcion en viajes turisticos</p>
-        </details>
-    </div>
-     
-    <div class="caja2">
-        <details>
-            <summary> 
-        <a href="viaje" class="copan4"><img src="./assets/img/Copan4.jpg" class="img"><button>Comprar</button></a>
-            </summary>
-            <p>Autobus,Carro privado</p>
-            <p> Hospedaje, encuentra el mejor alojamiento. Hoteles, Apartamentos, Villas y más  </p>
-            <p>Transporte (tour por la ciudad)</p>
-            <p>Alimentacion comida buffet (incluye comidas tipicas del lugar)</p>
-            <p>Bebidas (Ilimitadas)</p>
-            <p>piscina</p>
-            <h3>$900</h3>
-            <p>Duracion de 3 dias Hotel Marina Copan tu mejor opcion en viajes turisticos</p>
-        </details>
-    </div>
-
-    <div class="caja3">
-        <details>
-            <summary> 
-                <a href="viaje" class="turistico"><img src="./assets/img/Copan4.jpg" class="img"><button>Comprar</button></a>
-            </summary>
-            <p>Ticket avion/ferry</p>
+            <div class="destinos2__div">
+                <img src="./Assets/img/Copan4.jpg">
+                <h4> Comprar </h4>
+            </div>            
+            <div class="destinos__div">
+                <img src="./Assets/img/Copan4.jpg">
+                <h4> Comprar </h4>
+            </div>
+        </section>
+        <h3>Paquetes</h3>
+        <section class="paquetes">
+            <div class="paquetes__div">
+                <details>
+                    <summary>
+                <img src="./Assets/img/turistico.jpg">
+                    </summary>
+                <h2>Paquete 1</h2>
+                <p>Ticket avion/ferry</p>
             <p>Hospedaje</p>
             <p>Transporte (tour por la ciudad)</p>
             <p>Alimentacion buffet (incluye solo desayuno)</p>
             <p>Bebidas (limitadas)</p>
             <p>piscina</p>
-            <h3>$522</h3>
-            <p>Duracion de 4 dias Hotel Suspiro su mejor opcion en viajes turisticos</p>
-        </details>
-    </div>
-
-    
-    <div class="caja3" >
-        <details>
-            <summary> 
-                <a href="viaje" class="Copan4"><img src="./assets/img/Copan4.jpg" class="imgen"><button>Comprar</button></a>
-            </summary>
-            <p>Autobus,Carro privado</p>
-            <p> Hospedaje, encuentra el mejor alojamiento. Hoteles, Apartamentos, Villas y más  </p>
+            <h3 class="paquetes__div__p">$397</h3>
+            <p>Duracion de 3 dias Hotel Playa tu mejor opcion en viajes turisticos</p>
+                <h4 id="paquetes__div__subtitle">Comprar</h4>
+                </details>
+            </div>
+            <div class="paquetes__div">
+                <details>
+                <summary>
+                <img src="./Assets/img/turistico.jpg">
+                </summary>
+                <h2>Paquete 2</h2>
+                <p>Ticket avion/ferry</p>
+            <p>Hospedaje</p>
             <p>Transporte (tour por la ciudad)</p>
-            <p>Alimentacion comida buffet (incluye comidas tipicas del lugar)</p>
-            <p>Bebidas (Ilimitadas)</p>
+            <p>Alimentacion buffet (incluye solo desayuno)</p>
+            <p>Bebidas (limitadas)</p>
             <p>piscina</p>
-            <h3>$900</h3>
-            <p>Duracion de 3 dias Hotel Marina Copan tu mejor opcion en viajes turisticos</p>
-        </details>
-    </div>
-</div>
-<hr>
+            <h3 class="paquetes__div__p">$397</h3>
+            <p>Duracion de 3 dias Hotel Playa tu mejor opcion en viajes turisticos</p>
+                <h4 id="paquetes__div__subtitle">Comprar</h4>
+                </details>
+            </div>                   <div class="paquetes__div">
+                <details>
+                    <summary>
+                <img src="./Assets/img/turistico.jpg">
+                    </summary>
+                
+                <h2>Paquete 5</h2>
+                <p>Ticket avion/ferry</p>
+            <p>Hospedaje</p>
+            <p>Transporte (tour por la ciudad)</p>
+            <p>Alimentacion buffet (incluye solo desayuno)</p>
+            <p>Bebidas (limitadas)</p>
+            <p>piscina</p>
+            <h3 class="paquetes__div__p">$397</h3>
+            <p>Duracion de 3 dias Hotel Playa tu mejor opcion en viajes turisticos</p>
+                <h4 id="paquetes__div__subtitle">Comprar</h4>
+                </details>
+            </div>            
+            <div class="paquetes__div">
+                <details>
+                    <summary>
+                <img src="./Assets/img/turistico.jpg">
+                    </summary>
+                <h2>Paquete 6</h2>
+                <p>Ticket avion/ferry</p>
+            <p>Hospedaje</p>
+            <p>Transporte (tour por la ciudad)</p>
+            <p>Alimentacion buffet (incluye solo desayuno)</p>
+            <p>Bebidas (limitadas)</p>
+            <p>piscina</p>
+            <h3 class="paquetes__div__p">$397</h3>
+            <p>Duracion de 3 dias Hotel Playa tu mejor opcion en viajes turisticos</p> <h4 id="paquetes__div__subtitle">Comprar</h4>
+                </details>
+        </div>
+        </section>
+        <details class="details">
+            <summary class="details__summary">Contactanos </summary>
+            <hr>
+            <form action="Nombre" >
+                <label class="details__summary__label">Nombre</label>
+                <input type="text" name="Nombre" placeholder="Nombre.." required>
 
-<!--bloque formulario de ingreso-->
-<header>
-    <label for="text">Que quieres conocer?</label>
-    <input 
-    type="nombre"
-    name="nombre"
-    id="nombre"
-    placeholder="Ruinas de Copan">
-    <label for="text">Cuando?</label>
-    </header>
-    
-    <div id="contenedor1">
-      <header>
-        <label for="text">desde:</label>
-        <input class="input1"
-        type="nombre"
-        name="nombre"
-        id="nombre"
-        placeholder="Copan" class="hn">
-      </header>
-    </div>
-    
-    <div id="contenedor1">
-       <header>
-            <label for="text">a?</label>
-        <input class="input1" 
-        type="text"
-        name="text"
-        id="text"
-        placeholder="Vacaciones" class="hn">
-      </header>
-    </div>
-    
-    <header>
-        <label for="text">Cuantas Personas?</label>
-    <input class="input2"
-    type="number"
-    name="number"
-    id="number"
-    placeholder="4">
-    <label for="number">Adultos</label>
-    
-    <input class="input2"
-    type="number"
-    name="number"
-    id="number"
-    placeholder="2">
-    <label for="text">Niños/as</label>
-    </header>
-    
-    <button type="submit" id="submit"  class="boton">Enviar</button>
+                <label class="details__summary__label">Telefono</label>
+                <input type="text" name="Number" placeholder="996873**.." required>
+                
+                <label class="details__summary__label">Email</label>
+                <input type="text" name="Nombre" placeholder="Email.." required>
+
+                <label class="details__summary__label" id="label">Asunto</label>
+                <input type="text" name="Asunto" id="input" placeholder="..." required >
+                <button>ENVIAR</button>
+            </form>
+        </details>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados</p>
+    </footer>
