@@ -1,19 +1,122 @@
-.p {
-  text-align: center;
+.header {
+  background-color: rgb(163, 219, 239);
+}
+.header__navegation {
+  display: flex;
+}
+.header__navegation__titulo {
+  color: rgb(200, 76, 76);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+.header__navegation__link {
+  margin-left: 2%;
+  margin-top: 2%;
+  color: rgb(200, 76, 76);
 }
 
-h2 {
+.menu__navegation__titulo {
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: start;
+  margin-left: 5%;
+}
+.menu__navegation__titulo2 {
+  margin-top: 0%;
+  margin-left: 5%;
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu__navegation__text {
+  color: white;
   text-align: center;
-  font-style: italic;
-  font-size: xx-large;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.menu__navegation__section {
+  display: flex;
+  margin-left: 8%;
+}
+.menu__navegation__section1 {
+  display: flex;
+}
+.menu__navegation__caja1 {
+  display: flex;
+  justify-content: center;
+}
+.menu__navegation__caja1__forma {
+  width: 19%;
+  padding: 1%;
+}
+.menu__navegation__caja1__summary {
+  list-style: none;
+  background-color: rgb(0, 65, 115);
+  padding: 3%;
+}
+.menu__navegation__caja1__detalles {
+  width: 16.3rem;
+}
+.menu__navegation__caja {
+  display: flex;
+  flex-direction: row;
+}
+.menu__navegation__caja__detalles {
+  width: 16.3rem;
+}
+.menu__navegation__caja__forma1 {
+  width: 28%;
+  padding: 1%;
+}
+.menu__navegation__caja__summary {
+  list-style: none;
+  background-color: rgb(0, 65, 115);
+  padding: 3%;
+}
+.menu__navegation__text1 {
+  text-align: center;
+  color: #7f19ab;
+}
+.menu__navegation__titulo1 {
+  text-align: center;
+  color: #551574;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu__navegation__title {
+  color: #db6ed7;
+}
+.menu__navegation__titulo3 {
+  text-align: center;
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu__navegation__boton {
+  width: 99%;
+  height: 25px;
+  border-color: #db6ed7;
+}
+.menu__navegation__boton1 {
+  width: 99%;
+  height: 150px;
+  border-color: #db6ed7;
+}
+.menu__navegation__enviar {
+  background-color: orangered;
+  border: none;
+  padding: 10px;
+  margin-bottom: 8%;
 }
 
-h1 {
+.final {
+  background-color: rgb(163, 219, 239);
+  padding: 0.5%;
+}
+.final__navegation__titulo {
+  color: rgb(200, 76, 76);
   text-align: center;
-  font-style: italic;
-  font-size: xx-large;
-  background-color: blueviolet;
-  padding: 5;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
