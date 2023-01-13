@@ -1,122 +1,123 @@
-.header {
-  background-color: rgb(163, 219, 239);
-}
-.header__navegation {
-  display: flex;
-}
-.header__navegation__titulo {
-  color: rgb(200, 76, 76);
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 2%;
-  margin-bottom: 1%;
-}
-.header__navegation__link {
-  margin-left: 2%;
-  margin-top: 2%;
-  color: rgb(200, 76, 76);
+body {
+  background: rgb(65, 130, 103);
+  background: linear-gradient(0deg, rgb(65, 130, 103) 0%, rgb(213, 148, 207) 59%, rgb(208, 192, 218) 75%, rgba(178, 165, 174, 0.9521847345) 98%);
 }
 
-.menu__navegation__titulo {
-  color: purple;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: start;
-  margin-left: 5%;
+h1 {
+  font-size: 30px;
+  color: rgb(151, 155, 33);
+  font-size: xx-large;
+  font-style: oblique;
 }
-.menu__navegation__titulo2 {
-  margin-top: 0%;
-  margin-left: 5%;
-  color: purple;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.menu__navegation__text {
-  color: white;
-  text-align: center;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-.menu__navegation__section {
+
+.navigation {
   display: flex;
-  margin-left: 8%;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: xx-large;
+  font-style: italic;
+  background-color: black;
 }
-.menu__navegation__section1 {
-  display: flex;
+
+.navigation__item {
+  color: rgb(154, 54, 165);
 }
-.menu__navegation__caja1 {
+
+.img1 {
+  width: 13%;
+  height: 17%;
+  border-radius: 15%;
+  border: none;
+}
+
+.img2 {
+  width: 20%;
+  border-radius: 16%;
+}
+
+.img3 {
+  width: 17%;
+  border-radius: 17%;
+}
+
+.img {
+  width: 40%;
+}
+
+.imgen {
+  width: 22%;
+}
+
+#contenedor2 {
   display: flex;
   justify-content: center;
-}
-.menu__navegation__caja1__forma {
-  width: 19%;
-  padding: 1%;
-}
-.menu__navegation__caja1__summary {
-  list-style: none;
-  background-color: rgb(0, 65, 115);
-  padding: 3%;
-}
-.menu__navegation__caja1__detalles {
-  width: 16.3rem;
-}
-.menu__navegation__caja {
-  display: flex;
   flex-direction: row;
 }
-.menu__navegation__caja__detalles {
-  width: 16.3rem;
-}
-.menu__navegation__caja__forma1 {
-  width: 28%;
-  padding: 1%;
-}
-.menu__navegation__caja__summary {
-  list-style: none;
-  background-color: rgb(0, 65, 115);
-  padding: 3%;
-}
-.menu__navegation__text1 {
-  text-align: center;
-  color: #7f19ab;
-}
-.menu__navegation__titulo1 {
-  text-align: center;
-  color: #551574;
-  font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.menu__navegation__title {
-  color: #db6ed7;
-}
-.menu__navegation__titulo3 {
-  text-align: center;
-  color: purple;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.menu__navegation__boton {
-  width: 99%;
-  height: 25px;
-  border-color: #db6ed7;
-}
-.menu__navegation__boton1 {
-  width: 99%;
-  height: 150px;
-  border-color: #db6ed7;
-}
-.menu__navegation__enviar {
-  background-color: orangered;
+
+.boton {
+  background-color: rgb(84, 81, 29);
   border: none;
-  padding: 10px;
-  margin-bottom: 8%;
 }
 
-.final {
-  background-color: rgb(163, 219, 239);
-  padding: 0.5%;
+body {
+  background: rgb(65, 130, 103);
+  background: linear-gradient(0deg, rgb(65, 130, 103) 0%, rgb(213, 148, 207) 59%, rgb(208, 192, 218) 75%, rgba(178, 165, 174, 0.9521847345) 98%);
 }
-.final__navegation__titulo {
-  color: rgb(200, 76, 76);
-  text-align: center;
-  font-size: small;
-  font-family: Arial, Helvetica, sans-serif;
+
+h1 {
+  font-size: 30px;
+  color: rgb(151, 155, 33);
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: xx-large;
+  font-style: italic;
+  background-color: black;
+}
+
+.navigation__item {
+  color: rgb(154, 54, 165);
+}
+
+.img1 {
+  width: 13%;
+  height: 17%;
+  border-radius: 15%;
+  border: none;
+}
+
+.img2 {
+  width: 20%;
+  border-radius: 16%;
+}
+
+.img3 {
+  width: 17%;
+  border-radius: 17%;
+}
+
+.img {
+  width: 40%;
+}
+
+.imgen {
+  width: 22%;
+}
+
+#contenedor2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.boton {
+  background-color: rgb(84, 81, 29);
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
