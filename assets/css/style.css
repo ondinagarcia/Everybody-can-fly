@@ -47,23 +47,19 @@ li {
   color: darkblue;
 }
 .main .destinos img {
-  height: 100;
-  width: 100%;
-  margin: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 85%;
+  height: 80%;
+  padding-left: 2%;
 }
 .main .destinos h4 {
   background-color: rgb(238, 231, 231);
-  margin-left: 10%;
+  margin-left: 5%;
   color: rgb(20, 151, 20);
   text-align: center;
 }
 .main .destinos__div {
-  margin-top: 2%;
-  width: 100%;
-  height: 100;
+  width: 85%;
+  height: 100%;
 }
 
 .paquetes {
@@ -88,9 +84,6 @@ li {
 }
 .paquetes__subtitle {
   width: 75%;
-}
-.paquetes img {
-  width: 90%;
 }
 .paquetes p {
   margin-left: 5%;
