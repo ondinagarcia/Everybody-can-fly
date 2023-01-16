@@ -9,7 +9,7 @@
   background-color: rgb(19, 18, 18);
 }
 .header h1 {
-  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: x-large;
   color: rgb(184, 181, 34);
 }
@@ -29,12 +29,12 @@ li {
 }
 
 .main {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(145, 139, 135) 3%, rgb(72, 131, 89) 14%, rgb(133, 78, 130) 25%, rgb(122, 97, 175) 33%, rgb(170, 169, 175) 42%, rgb(253, 230, 29) 50%, rgb(51, 115, 124) 53%, rgb(196, 129, 145) 64%, rgb(40, 162, 184) 74%, rgb(162, 131, 168) 86%, rgb(252, 176, 69) 100%);
+  background-color: rgb(9, 92, 60);
+  background-color: aquamarine;
 }
 .main h3 {
   margin-left: 2%;
-  color: rgb(61, 58, 59);
+  color: rgb(128, 78, 94);
   font-size: larger;
   font-style: italic;
   margin-bottom: 2%;
@@ -47,51 +47,52 @@ li {
   color: darkblue;
 }
 .main .destinos img {
-  width: 85%;
-  height: 80%;
-  padding-left: 2%;
+  width: 90%;
+  height: 75%;
+  padding-left: 10%;
 }
 .main .destinos h4 {
   background-color: rgb(238, 231, 231);
   margin-left: 5%;
   color: rgb(20, 151, 20);
   text-align: center;
+  padding-left: 10%;
 }
 .main .destinos__div {
   width: 85%;
   height: 100%;
 }
 
-.paquetes {
+.viajes {
   padding-top: 2%;
   display: flex;
 }
-.paquetes__div {
+.viajes__div {
   width: 90%;
   margin-bottom: 3%;
   margin-left: 2%;
 }
-.paquetes__div__p {
+.viajes__div__p {
   color: rgb(109, 125, 128);
   background-color: rgb(156, 154, 151);
 }
-.paquetes__div h4 {
+.viajes__div h4 {
   background-color: rgb(12, 12, 12);
   width: 80%;
-  padding: 4%;
+  padding-left: 5;
   text-align: center;
   color: rgb(83, 5, 70);
 }
-.paquetes__subtitle {
+.viajes__subtitle {
   width: 75%;
 }
-.paquetes p {
+.viajes p {
   margin-left: 5%;
   margin-top: 20px;
   text-align: justify;
   width: 80%;
 }
-.paquetes .imgs {
+.viajes .imgs {
   width: 50%;
   height: 60%;
 }
